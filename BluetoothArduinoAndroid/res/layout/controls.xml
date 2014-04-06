@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp" android:baselineAligned="false" android:background="#fff62d">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/Forward1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" android:checked="false" android:textOn="FORWARD" android:textOff=" FORWARD"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Motor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motor 1"
+            android:layout_gravity="center_horizontal|top" android:textSize="18dp"
+            android:textStyle="bold" android:textColor="#ff171c"/>
+
+        <ToggleButton
+            android:id="@+id/Reverse1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" android:checked="false" android:textOff="REVERSE" android:textOn="REVERSE"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/Forward2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" android:checked="false" android:textOff="FORWARD" android:textOn="FORWARD"
+            android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/Motor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motor 2"
+                android:layout_gravity="center_horizontal|top" android:textSize="18dp"
+                android:textStyle="bold" android:textColor="#ff171c"/>
+
+        <ToggleButton
+                android:id="@+id/Reverse2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="REVERSE" android:textOn="REVERSE"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <ToggleButton
+                android:id="@+id/Forward3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="FORWARD" android:textOn="FORWARD"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/Motor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motor 3"
+                android:layout_gravity="center_horizontal|top" android:textSize="18dp"
+                android:textStyle="bold" android:textColor="#ff171c"/>
+
+        <ToggleButton
+                android:id="@+id/Reverse3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="REVERSE" android:textOn="REVERSE"
+                android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <ToggleButton
+                android:id="@+id/Forward4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="FORWARD" android:textOn="FORWARD"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/Motor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motor 4"
+                android:layout_gravity="center_horizontal|top" android:textSize="18dp"
+                android:textStyle="bold" android:textColor="#ff171c"/>
+
+        <ToggleButton
+                android:id="@+id/Reverse4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="REVERSE" android:textOn="REVERSE"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <ToggleButton
+                android:id="@+id/Forward5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="FORWARD" android:textOn="FORWARD"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/Motor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motor 5"
+                android:layout_gravity="center_horizontal|top" android:textSize="18dp"
+                android:textStyle="bold" android:textColor="#ff171c"/>
+
+        <ToggleButton
+                android:id="@+id/Reverse5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="REVERSE" android:textOn="REVERSE"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <ToggleButton
+                android:id="@+id/Forward6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="FORWARD" android:textOn="FORWARD"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/Motor6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motor 6"
+                android:layout_gravity="center_horizontal|top" android:textSize="18dp"
+                android:textStyle="bold" android:textColor="#ff171c"/>
+
+        <ToggleButton
+                android:id="@+id/Reverse6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" android:checked="false" android:textOff="REVERSE" android:textOn="REVERSE"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ToggleButton
+            android:id="@+id/Up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="false" android:textOff="UP" android:textOn="UP" android:textStyle="bold"
+            />
+
+    <LinearLayout
+            android:layout_width="122dp"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+    <ToggleButton
+            android:id="@+id/Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:checked="false" android:textOff="LEFT" android:textOn="LEFT" android:textStyle="bold"/>
+        <ToggleButton
+                android:id="@+id/Right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:checked="false" android:textOff="RIGHT" android:textOn="RIGHT" android:singleLine="false"
+                android:gravity="center" android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <ToggleButton
+            android:id="@+id/Down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="false" android:textOff="DOWN" android:textOn="DOWN" android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/result"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="" android:textStyle="bold" android:autoText="false"/>
+
+</LinearLayout>

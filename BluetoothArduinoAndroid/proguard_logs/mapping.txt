@@ -1,0 +1,94 @@
+com.md4n1.bluetootharduino.Controls -> com.md4n1.bluetootharduino.Controls:
+    java.util.UUID MAGIC_UUID -> a
+    java.lang.String TAG -> b
+    android.bluetooth.BluetoothAdapter bluetoothAdapter -> c
+    com.md4n1.bluetootharduino.Controls$BTConnectionThread btConnectionThread -> d
+    android.app.ProgressDialog pd -> e
+    android.widget.TextView result -> f
+    android.hardware.SensorManager sensorManager -> g
+    android.hardware.Sensor sensor -> h
+    float x -> i
+    float y -> j
+    float z -> k
+    android.hardware.SensorEventListener accelerationListener -> l
+    android.widget.CompoundButton$OnCheckedChangeListener changeListener -> m
+    void onCreate(android.os.Bundle) -> onCreate
+    void refreshDisplay() -> c
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void bindViews() -> d
+    void connectToBTDevice(android.bluetooth.BluetoothDevice) -> a
+    void onDestroy() -> onDestroy
+    float access$002(com.md4n1.bluetootharduino.Controls,float) -> a
+    float access$102(com.md4n1.bluetootharduino.Controls,float) -> b
+    float access$202(com.md4n1.bluetootharduino.Controls,float) -> c
+    void access$300(com.md4n1.bluetootharduino.Controls) -> a
+    android.app.ProgressDialog access$402(com.md4n1.bluetootharduino.Controls,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$400(com.md4n1.bluetootharduino.Controls) -> b
+    com.md4n1.bluetootharduino.Controls$BTConnectionThread access$500(com.md4n1.bluetootharduino.Controls) -> c
+    com.md4n1.bluetootharduino.Controls$BTConnectionThread access$502(com.md4n1.bluetootharduino.Controls,com.md4n1.bluetootharduino.Controls$BTConnectionThread) -> a
+    android.bluetooth.BluetoothAdapter access$600(com.md4n1.bluetootharduino.Controls) -> d
+    java.util.UUID access$700() -> a
+    java.lang.String access$800() -> b
+com.md4n1.bluetootharduino.Controls$1 -> com.md4n1.bluetootharduino.a:
+    com.md4n1.bluetootharduino.Controls this$0 -> a
+    void onAccuracyChanged(android.hardware.Sensor,int) -> onAccuracyChanged
+    void onSensorChanged(android.hardware.SensorEvent) -> onSensorChanged
+com.md4n1.bluetootharduino.Controls$2 -> com.md4n1.bluetootharduino.b:
+    android.bluetooth.BluetoothDevice val$device -> a
+    com.md4n1.bluetootharduino.Controls this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.md4n1.bluetootharduino.Controls$2$1 -> com.md4n1.bluetootharduino.c:
+    com.md4n1.bluetootharduino.Controls$2 this$1 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.md4n1.bluetootharduino.Controls$3 -> com.md4n1.bluetootharduino.d:
+    com.md4n1.bluetootharduino.Controls this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.md4n1.bluetootharduino.Controls$BTChannelThread -> com.md4n1.bluetootharduino.e:
+    boolean keepAlive -> b
+    java.io.OutputStream outStream -> c
+    android.bluetooth.BluetoothSocket btSocket -> d
+    com.md4n1.bluetootharduino.Controls this$0 -> a
+    void run() -> run
+    void sendCommand(byte[]) -> a
+com.md4n1.bluetootharduino.Controls$BTConnectionThread -> com.md4n1.bluetootharduino.f:
+    android.bluetooth.BluetoothDevice device -> b
+    android.bluetooth.BluetoothSocket btSocket -> c
+    com.md4n1.bluetootharduino.Controls$BTChannelThread btChannelThread -> d
+    com.md4n1.bluetootharduino.Controls this$0 -> a
+    void run() -> run
+    void cancel() -> a
+    void write(byte[]) -> a
+com.md4n1.bluetootharduino.Main -> com.md4n1.bluetootharduino.Main:
+    android.bluetooth.BluetoothAdapter bluetoothAdapter -> a
+    android.widget.ArrayAdapter pairedDevicesAdapter -> b
+    android.widget.ListView pairedDevices -> c
+    android.widget.ProgressBar progress -> d
+    android.widget.ListView availableDevices -> e
+    android.widget.ArrayAdapter availableDevicesAdapter -> f
+    java.util.List paired -> g
+    java.util.List available -> h
+    android.content.BroadcastReceiver mReceiver -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void discoverDevices() -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onDestroy() -> onDestroy
+    java.util.List access$000(com.md4n1.bluetootharduino.Main) -> a
+    java.util.List access$100(com.md4n1.bluetootharduino.Main) -> b
+    android.bluetooth.BluetoothAdapter access$200(com.md4n1.bluetootharduino.Main) -> c
+    java.util.List access$102(com.md4n1.bluetootharduino.Main,java.util.List) -> a
+    android.widget.ArrayAdapter access$300(com.md4n1.bluetootharduino.Main) -> d
+    android.widget.ProgressBar access$400(com.md4n1.bluetootharduino.Main) -> e
+com.md4n1.bluetootharduino.Main$1 -> com.md4n1.bluetootharduino.g:
+    com.md4n1.bluetootharduino.Main this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.md4n1.bluetootharduino.Main$2 -> com.md4n1.bluetootharduino.h:
+    com.md4n1.bluetootharduino.Main this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.md4n1.bluetootharduino.Main$3 -> com.md4n1.bluetootharduino.i:
+    com.md4n1.bluetootharduino.Main this$0 -> a
+    boolean onMenuItemClick(android.view.MenuItem) -> onMenuItemClick
+com.md4n1.bluetootharduino.Main$4 -> com.md4n1.bluetootharduino.j:
+    com.md4n1.bluetootharduino.Main this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive

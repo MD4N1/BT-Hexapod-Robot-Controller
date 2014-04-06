@@ -1,0 +1,13 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.md4n1.bluetootharduino.BuildConfig
+com.md4n1.bluetootharduino.Controls$BTChannelThread:
+    296:303:public void cancel()
+com.md4n1.bluetootharduino.Main:
+    private static final int ENABLE_BT_REQ
+com.md4n1.bluetootharduino.R
+com.md4n1.bluetootharduino.R$attr
+com.md4n1.bluetootharduino.R$drawable
+com.md4n1.bluetootharduino.R$id
+com.md4n1.bluetootharduino.R$layout
+com.md4n1.bluetootharduino.R$string

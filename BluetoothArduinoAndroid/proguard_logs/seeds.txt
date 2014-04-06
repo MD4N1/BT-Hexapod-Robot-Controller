@@ -1,0 +1,38 @@
+com.md4n1.bluetootharduino.Controls
+com.md4n1.bluetootharduino.Controls: Controls()
+com.md4n1.bluetootharduino.Main
+com.md4n1.bluetootharduino.Main: Main()
+com.md4n1.bluetootharduino.R$drawable: int ic_launcher
+com.md4n1.bluetootharduino.R$drawable: int textured_stripes
+com.md4n1.bluetootharduino.R$drawable: int tilebg
+com.md4n1.bluetootharduino.R$drawable: int tiny_grid
+com.md4n1.bluetootharduino.R$id: int Down
+com.md4n1.bluetootharduino.R$id: int Forward1
+com.md4n1.bluetootharduino.R$id: int Forward2
+com.md4n1.bluetootharduino.R$id: int Forward3
+com.md4n1.bluetootharduino.R$id: int Forward4
+com.md4n1.bluetootharduino.R$id: int Forward5
+com.md4n1.bluetootharduino.R$id: int Forward6
+com.md4n1.bluetootharduino.R$id: int Left
+com.md4n1.bluetootharduino.R$id: int Motor1
+com.md4n1.bluetootharduino.R$id: int Motor2
+com.md4n1.bluetootharduino.R$id: int Motor3
+com.md4n1.bluetootharduino.R$id: int Motor4
+com.md4n1.bluetootharduino.R$id: int Motor5
+com.md4n1.bluetootharduino.R$id: int Motor6
+com.md4n1.bluetootharduino.R$id: int Reverse1
+com.md4n1.bluetootharduino.R$id: int Reverse2
+com.md4n1.bluetootharduino.R$id: int Reverse3
+com.md4n1.bluetootharduino.R$id: int Reverse4
+com.md4n1.bluetootharduino.R$id: int Reverse5
+com.md4n1.bluetootharduino.R$id: int Reverse6
+com.md4n1.bluetootharduino.R$id: int Right
+com.md4n1.bluetootharduino.R$id: int Up
+com.md4n1.bluetootharduino.R$id: int availableDevices
+com.md4n1.bluetootharduino.R$id: int pairedDevices
+com.md4n1.bluetootharduino.R$id: int progress
+com.md4n1.bluetootharduino.R$id: int result
+com.md4n1.bluetootharduino.R$layout: int controls
+com.md4n1.bluetootharduino.R$layout: int main
+com.md4n1.bluetootharduino.R$string: int app_name
+com.md4n1.bluetootharduino.R$string: int hello
