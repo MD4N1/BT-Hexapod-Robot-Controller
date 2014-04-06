@@ -1,0 +1,38 @@
+bluetooth dc motor controller dari MotorControlImage.apk
+Motor    Arah        Data (H)
+M1       FWD         41
+M1       REV         47
+M2       FWD         42
+M2       REV         48
+M3       FWD         43
+M3       REV         49
+M4       FWD         44
+M4       REV         4A
+M5       FWD         45
+M5       REV         4B
+M6       FWD         46
+M6       REV         4C
+-        UP          4D
+-        DN          4E
+-        LT          50
+-        RT          4F
+-        
+
+bluetooth dc motor controller dari Bluetooth DC Motor Controller.apk
+Motor    Arah        Data (H)
+M1       FWD         
+M1       REV         
+M2       FWD         
+M2       REV         
+M3       FWD         
+M3       REV         
+M4       FWD         
+M4       REV         
+M5       FWD         
+M5       REV         
+M6       FWD         
+M6       REV         
+-        UP
+-        DN
+-        LT
+-        RT
